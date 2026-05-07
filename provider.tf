@@ -1,4 +1,4 @@
 provider "aws" {
-  region  = "ap-southeast-1"
+  region  = "eu-north-1"
   #profile = "tf-user"
 }
