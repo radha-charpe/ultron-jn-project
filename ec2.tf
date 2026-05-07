@@ -1,7 +1,7 @@
-resource "aws_instance" "vm" {
-  ami                    = "ami-0bbafdf433890644d"
+resource "aws_instance" "jen-server" {
+  ami                    = "ami-05d62b9bc5a6ca605"
   instance_type          = "t3.micro"
-  key_name               = "id_rsa"
+  key_name               = "r-key"
   vpc_security_group_ids = ["sg-0a7ae78370632c262"]
   user_data              = <<-EOF
     #!/bin/bash
