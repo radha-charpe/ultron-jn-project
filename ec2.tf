@@ -1,4 +1,4 @@
-resource "aws_instance" "jen-server" {
+resource "aws_instance" "jen-vm" {
   ami                    = "ami-05d62b9bc5a6ca605"
   instance_type          = "t3.micro"
   key_name               = "r-key"
