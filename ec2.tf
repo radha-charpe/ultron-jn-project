@@ -2,7 +2,7 @@ resource "aws_instance" "jen-vm" {
   ami                    = "ami-05d62b9bc5a6ca605"
   instance_type          = "t3.micro"
   key_name               = "r-key"
-  vpc_security_group_ids = ["sg-0a7ae78370632c262"]
+  vpc_security_group_ids = ["sg-0b87da754f12fdeb72"]
   user_data              = <<-EOF
     #!/bin/bash
     sudo -i
